@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 1500" role="img" aria-labelledby="title desc">
+  <title id="title">Noura Studio social layout</title><desc id="desc">Editorial beauty campaign layouts in blue, coral and lime.</desc>
+  <rect width="1200" height="1500" fill="#f3f1eb"/>
+  <rect x="80" y="80" width="670" height="907" fill="#2d46ff"/>
+  <text x="132" y="236" fill="#f3f1eb" font-family="Arial, Helvetica, sans-serif" font-size="59" font-weight="700" letter-spacing="-4">NOURA</text>
+  <text x="694" y="648" fill="#ccff38" text-anchor="end" font-family="Arial, Helvetica, sans-serif" font-size="295" font-weight="700" letter-spacing="-24">ن</text>
+  <circle cx="447" cy="777" r="157" fill="#ef583b"/>
+  <rect x="460" y="610" width="630" height="655" fill="#171717"/>
+  <text x="518" y="725" fill="#f3f1eb" font-family="Arial, Helvetica, sans-serif" font-size="24" font-weight="700" letter-spacing="4">YOUR RITUAL</text>
+  <text x="518" y="880" fill="#f3f1eb" font-family="Arial, Helvetica, sans-serif" font-size="100" font-weight="700" letter-spacing="-8">SLOW</text>
+  <text x="518" y="974" fill="#f3f1eb" font-family="Arial, Helvetica, sans-serif" font-size="100" font-weight="700" letter-spacing="-8">DOWN.</text>
+  <line x1="520" y1="1092" x2="1018" y2="1092" stroke="#ccff38" stroke-width="4"/>
+  <text x="80" y="1406" fill="#171717" font-family="Arial, Helvetica, sans-serif" font-size="18" font-weight="700" letter-spacing="4">A SOCIAL SYSTEM WITH ROOM TO BREATHE</text>
+</svg>

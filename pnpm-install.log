@@ -1,0 +1,128 @@
+Progress: resolved 1, reused 0, downloaded 0, added 0
+Progress: resolved 60, reused 49, downloaded 0, added 0
+Progress: resolved 61, reused 49, downloaded 0, added 0
+Progress: resolved 64, reused 49, downloaded 0, added 0
+Progress: resolved 66, reused 49, downloaded 0, added 0
+Progress: resolved 72, reused 49, downloaded 1, added 0
+Progress: resolved 74, reused 49, downloaded 4, added 0
+Progress: resolved 79, reused 49, downloaded 7, added 0
+Progress: resolved 80, reused 49, downloaded 7, added 0
+[WARN] Tarball download average speed 27 KiB/s (size 40 KiB) is below 50 KiB/s: https://registry.npmjs.org/baseline-browser-mapping/-/baseline-browser-mapping-2.11.15.tgz (GET)
+[WARN] Tarball download average speed 0 KiB/s (size 2 KiB) is below 50 KiB/s: https://registry.npmjs.org/is-extglob/-/is-extglob-2.1.1.tgz (GET)
+Progress: resolved 82, reused 49, downloaded 10, added 0
+Progress: resolved 85, reused 49, downloaded 11, added 0
+[WARN] Request took 10447ms: https://registry.npmjs.org/@nodelib%2Ffs.walk
+[WARN] Request took 10718ms: https://registry.npmjs.org/semver
+Progress: resolved 87, reused 49, downloaded 11, added 0
+[WARN] Request took 11320ms: https://registry.npmjs.org/@img%2Fsharp-linux-x64
+[WARN] Request took 11552ms: https://registry.npmjs.org/@img%2Fsharp-libvips-darwin-x64
+Progress: resolved 89, reused 49, downloaded 12, added 0
+[WARN] Request took 12219ms: https://registry.npmjs.org/ts-interface-checker
+[WARN] Tarball download average speed 2 KiB/s (size 7 KiB) is below 50 KiB/s: https://registry.npmjs.org/detect-libc/-/detect-libc-2.1.2.tgz (GET)
+Progress: resolved 90, reused 49, downloaded 14, added 0
+[WARN] Request took 13085ms: https://registry.npmjs.org/@img%2Fsharp-libvips-linux-riscv64
+[WARN] Tarball download average speed 12 KiB/s (size 28 KiB) is below 50 KiB/s: https://registry.npmjs.org/semver/-/semver-7.8.5.tgz (GET)
+Progress: resolved 91, reused 49, downloaded 16, added 0
+[WARN] Request took 15066ms: https://registry.npmjs.org/@nodelib%2Ffs.stat
+Progress: resolved 92, reused 49, downloaded 16, added 0
+[WARN] Request took 15104ms: https://registry.npmjs.org/@jridgewell%2Fgen-mapping
+[WARN] GET https://registry.npmjs.org/@img%2Fsharp-libvips-darwin-arm64 error (UND_ERR_SOCKET). Will retry in 10 seconds. 2 retries left.
+[WARN] Request took 15623ms: https://registry.npmjs.org/@img%2Fsharp-linux-ppc64
+Progress: resolved 94, reused 49, downloaded 18, added 0
+[WARN] Request took 16104ms: https://registry.npmjs.org/is-binary-path
+[WARN] Request took 16190ms: https://registry.npmjs.org/update-browserslist-db
+[WARN] Request took 16264ms: https://registry.npmjs.org/@img%2Fsharp-win32-ia32
+[WARN] Tarball download average speed 1 KiB/s (size 13 KiB) is below 50 KiB/s: https://registry.npmjs.org/braces/-/braces-3.0.3.tgz (GET)
+Progress: resolved 97, reused 49, downloaded 21, added 0
+[WARN] Request took 17354ms: https://registry.npmjs.org/@img%2Fsharp-linux-arm
+[WARN] Request took 17541ms: https://registry.npmjs.org/merge2
+Progress: resolved 99, reused 50, downloaded 21, added 0
+[WARN] Request took 19397ms: https://registry.npmjs.org/@img%2Fsharp-darwin-x64
+Progress: resolved 100, reused 50, downloaded 21, added 0
+[WARN] Request took 22053ms: https://registry.npmjs.org/@img%2Fsharp-libvips-linux-x64
+Progress: resolved 101, reused 50, downloaded 21, added 0
+[WARN] Request took 22603ms: https://registry.npmjs.org/lines-and-columns
+Progress: resolved 102, reused 51, downloaded 21, added 0
+[WARN] Request took 24334ms: https://registry.npmjs.org/pirates
+Progress: resolved 103, reused 51, downloaded 21, added 0
+Progress: resolved 103, reused 52, downloaded 21, added 0
+[WARN] Request took 26541ms: https://registry.npmjs.org/@img%2Fsharp-libvips-darwin-arm64
+Progress: resolved 104, reused 52, downloaded 21, added 0
+[WARN] Request took 30733ms: https://registry.npmjs.org/@img%2Fsharp-libvips-linuxmusl-arm64
+Progress: resolved 105, reused 52, downloaded 21, added 0
+[WARN] Request took 31219ms: https://registry.npmjs.org/@img%2Fsharp-linuxmusl-x64
+[WARN] Request took 31593ms: https://registry.npmjs.org/tinyglobby
+Progress: resolved 107, reused 53, downloaded 21, added 0
+[WARN] Tarball download average speed 0 KiB/s (size 6 KiB) is below 50 KiB/s: https://registry.npmjs.org/cssesc/-/cssesc-3.0.0.tgz (GET)
+Progress: resolved 107, reused 53, downloaded 22, added 0
+[WARN] Request took 32945ms: https://registry.npmjs.org/@img%2Fsharp-libvips-linux-s390x
+Progress: resolved 108, reused 53, downloaded 22, added 0
+[WARN] Request took 34923ms: https://registry.npmjs.org/electron-to-chromium
+[WARN] Request took 34986ms: https://registry.npmjs.org/commander
+Progress: resolved 109, reused 53, downloaded 22, added 0
+Progress: resolved 109, reused 54, downloaded 22, added 0
+[WARN] Request took 53755ms: https://registry.npmjs.org/anymatch
+Progress: resolved 110, reused 54, downloaded 22, added 0
+Progress: resolved 110, reused 55, downloaded 22, added 0
+[WARN] Request took 59320ms: https://registry.npmjs.org/@img%2Fsharp-linux-arm64
+Progress: resolved 111, reused 55, downloaded 22, added 0
+[WARN] GET https://registry.npmjs.org/typescript/-/typescript-5.9.3.tgz error (23). Will retry in 10 seconds. 2 retries left.
+[WARN] GET https://registry.npmjs.org/next/-/next-15.5.23.tgz error (23). Will retry in 10 seconds. 2 retries left.
+[WARN] GET https://registry.npmjs.org/@img%2Fcolour error (23). Will retry in 10 seconds. 2 retries left.
+[WARN] GET https://registry.npmjs.org/path-parse error (23). Will retry in 10 seconds. 2 retries left.
+[WARN] GET https://registry.npmjs.org/readdirp error (23). Will retry in 10 seconds. 2 retries left.
+[WARN] GET https://registry.npmjs.org/picomatch error (23). Will retry in 10 seconds. 2 retries left.
+[WARN] GET https://registry.npmjs.org/@img%2Fsharp-libvips-linuxmusl-x64 error (23). Will retry in 10 seconds. 2 retries left.
+[WARN] GET https://registry.npmjs.org/@next/swc-win32-x64-msvc/-/swc-win32-x64-msvc-15.5.23.tgz error (23). Will retry in 10 seconds. 2 retries left.
+[WARN] GET https://registry.npmjs.org/@img/sharp-win32-x64/-/sharp-win32-x64-0.34.5.tgz error (23). Will retry in 10 seconds. 2 retries left.
+Progress: resolved 112, reused 55, downloaded 22, added 0
+[WARN] Request took 72819ms: https://registry.npmjs.org/@img%2Fcolour
+Progress: resolved 113, reused 57, downloaded 22, added 0
+[WARN] Request took 73814ms: https://registry.npmjs.org/path-parse
+Progress: resolved 114, reused 58, downloaded 22, added 0
+[WARN] Request took 76386ms: https://registry.npmjs.org/@img%2Fsharp-libvips-linuxmusl-x64
+Progress: resolved 115, reused 58, downloaded 22, added 0
+[WARN] Request took 51544ms: https://registry.npmjs.org/electron-to-chromium
+Progress: resolved 116, reused 58, downloaded 22, added 0
+[WARN] Tarball download average speed 17 KiB/s (size 33 KiB) is below 50 KiB/s: https://registry.npmjs.org/electron-to-chromium/-/electron-to-chromium-1.5.409.tgz (GET)
+Progress: resolved 116, reused 58, downloaded 23, added 0
+[WARN] Request took 93836ms: https://registry.npmjs.org/picomatch
+Progress: resolved 117, reused 58, downloaded 23, added 0
+Progress: resolved 119, reused 59, downloaded 24, added 0
+Progress: resolved 122, reused 59, downloaded 24, added 0
+Progress: resolved 126, reused 59, downloaded 30, added 0
+Progress: resolved 129, reused 59, downloaded 32, added 0
+[WARN] Tarball download average speed 29 KiB/s (size 30 KiB) is below 50 KiB/s: https://registry.npmjs.org/@jridgewell/trace-mapping/-/trace-mapping-0.3.31.tgz (GET)
+Progress: resolved 130, reused 59, downloaded 35, added 0
+[WARN] Tarball download average speed 5 KiB/s (size 17 KiB) is below 50 KiB/s: https://registry.npmjs.org/@jridgewell/sourcemap-codec/-/sourcemap-codec-1.5.5.tgz (GET)
+Progress: resolved 131, reused 59, downloaded 37, added 0
+Progress: resolved 137, reused 59, downloaded 38, added 0
+Progress: resolved 138, reused 59, downloaded 43, added 0
+Progress: resolved 139, reused 59, downloaded 43, added 0
+Progress: resolved 139, reused 59, downloaded 44, added 0
+[WARN] Tarball download average speed 22 KiB/s (size 66 KiB) is below 50 KiB/s: https://registry.npmjs.org/@emnapi/runtime/-/runtime-1.11.3.tgz (GET)
+Packages: +108
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+Progress: resolved 140, reused 59, downloaded 45, added 0
+Packages are hard linked from the content-addressable store to the virtual store.
+  Content-addressable store is at: C:\Users\bakta\AppData\Local\pnpm\store\v11
+  Virtual store is at:             node_modules/.pnpm
+Progress: resolved 140, reused 59, downloaded 46, added 103
+Progress: resolved 140, reused 59, downloaded 46, added 104
+[WARN] GET https://registry.npmjs.org/typescript/-/typescript-5.9.3.tgz error (23). Will retry in 1 minute. 1 retries left.
+[WARN] GET https://registry.npmjs.org/next/-/next-15.5.23.tgz error (23). Will retry in 1 minute. 1 retries left.
+[WARN] GET https://registry.npmjs.org/@next/swc-win32-x64-msvc/-/swc-win32-x64-msvc-15.5.23.tgz error (23). Will retry in 1 minute. 1 retries left.
+[WARN] GET https://registry.npmjs.org/@img/sharp-win32-x64/-/sharp-win32-x64-0.34.5.tgz error (23). Will retry in 1 minute. 1 retries left.
+Progress: resolved 140, reused 59, downloaded 47, added 104
+Progress: resolved 140, reused 59, downloaded 47, added 105
+Progress: resolved 140, reused 59, downloaded 48, added 105
+Progress: resolved 140, reused 59, downloaded 48, added 106
+[23] The operation was aborted due to timeout
+
+This error happened while installing a direct dependency of C:\Users\bakta\OneDrive\Desktop\My Portfolio
+
+TimeoutError: The operation was aborted due to timeout
+    at new DOMException (node:internal/per_context/domexception:76:18)
+    at Timeout._onTimeout (node:internal/abort_controller:210:9)
+    at listOnTimeout (node:internal/timers:635:17)
+    at process.processTimers (node:internal/timers:571:7)

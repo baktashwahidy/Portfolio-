@@ -1,0 +1,140 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --canvas: #f3f1eb;
+  --ink: #151515;
+  --quiet: #726f67;
+  --rule: #d5d2c9;
+  --signal: #ccff38;
+  --cobalt: #2d46ff;
+  --ember: #ff5833;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html {
+  background: var(--canvas);
+  color: var(--ink);
+  text-rendering: optimizeLegibility;
+}
+
+body {
+  margin: 0;
+  background: var(--canvas);
+  color: var(--ink);
+  font-family: Arial, Helvetica, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+::selection {
+  background: var(--signal);
+  color: var(--ink);
+}
+
+a,
+button,
+summary {
+  -webkit-tap-highlight-color: transparent;
+}
+
+a:focus-visible,
+button:focus-visible,
+summary:focus-visible {
+  outline: 2px solid var(--cobalt);
+  outline-offset: 5px;
+}
+
+@layer base {
+  h1,
+  h2,
+  h3,
+  p {
+    margin: 0;
+  }
+}
+
+@layer components {
+  .page-shell {
+    @apply mx-auto w-full max-w-[1536px] px-5 sm:px-8 lg:px-12;
+  }
+
+  .eyebrow {
+    @apply text-[10px] font-bold uppercase tracking-label text-quiet sm:text-[11px];
+  }
+
+  .display-xl {
+    font-size: clamp(5.25rem, 16.8vw, 16rem);
+    font-weight: 800;
+    letter-spacing: -0.09em;
+    line-height: 0.72;
+  }
+
+  .display-lg {
+    font-size: clamp(3rem, 7.2vw, 7.5rem);
+    font-weight: 700;
+    letter-spacing: -0.075em;
+    line-height: 0.86;
+  }
+
+  .heading-xl {
+    font-size: clamp(2.45rem, 5vw, 5.25rem);
+    font-weight: 700;
+    letter-spacing: -0.065em;
+    line-height: 0.92;
+  }
+
+  .body-lg {
+    font-size: clamp(1.1rem, 1.55vw, 1.4rem);
+    letter-spacing: -0.025em;
+    line-height: 1.35;
+  }
+
+  .text-link {
+    @apply inline-flex items-center gap-2 border-b border-current pb-1 text-[11px] font-bold uppercase tracking-label transition-colors duration-300 hover:text-cobalt;
+  }
+
+  .rule {
+    @apply border-t border-[#d5d2c9];
+  }
+
+  .project-image-wrap {
+    @apply relative overflow-hidden bg-[#ddd9cf];
+  }
+
+  .project-image-wrap img {
+    @apply transition-transform duration-700 ease-editorial;
+  }
+
+  .project-image-wrap:hover img {
+    transform: scale(1.035);
+  }
+}
+
+@media (pointer: fine) and (prefers-reduced-motion: no-preference) {
+  body,
+  a,
+  button,
+  summary {
+    cursor: none;
+  }
+
+  .cursor-follower {
+    display: block;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    scroll-behavior: auto !important;
+    transition-duration: 0.01ms !important;
+  }
+}

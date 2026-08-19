@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 1500" role="img" aria-labelledby="title desc">
+  <title id="title">Kivo Objects packaging colours</title><desc id="desc">A crisp grid of Kivo package variations.</desc>
+  <rect width="1200" height="1500" fill="#e1ded5"/>
+  <rect x="102" y="126" width="411" height="543" fill="#171717"/>
+  <text x="155" y="444" fill="#ccff38" font-family="Arial, Helvetica, sans-serif" font-size="235" font-weight="700" letter-spacing="-25">K</text>
+  <rect x="617" y="260" width="406" height="543" fill="#ef583b"/>
+  <text x="676" y="576" fill="#171717" font-family="Arial, Helvetica, sans-serif" font-size="210" font-weight="700" letter-spacing="-23">O</text>
+  <rect x="207" y="826" width="409" height="543" fill="#2d46ff"/>
+  <text x="267" y="1144" fill="#f3f1eb" font-family="Arial, Helvetica, sans-serif" font-size="210" font-weight="700" letter-spacing="-23">V</text>
+  <rect x="694" y="922" width="406" height="403" fill="#ccff38"/>
+  <text x="747" y="1166" fill="#171717" font-family="Arial, Helvetica, sans-serif" font-size="220" font-weight="700" letter-spacing="-24">O</text>
+  <text x="103" y="79" fill="#171717" font-family="Arial, Helvetica, sans-serif" font-size="18" font-weight="700" letter-spacing="4">COLOUR AS A COLLECTING SYSTEM</text>
+</svg>

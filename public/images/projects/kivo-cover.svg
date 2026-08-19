@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 1120" role="img" aria-labelledby="title desc">
+  <title id="title">Kivo Objects packaging identity</title><desc id="desc">Lime packaging system with expressive black lettering and graphic forms.</desc>
+  <rect width="1600" height="1120" fill="#ccff38"/>
+  <rect x="63" y="62" width="1474" height="996" fill="none" stroke="#171717" stroke-width="3"/>
+  <rect x="150" y="270" width="440" height="580" fill="#171717" transform="rotate(-7 150 270)"/>
+  <text x="221" y="520" fill="#ccff38" font-family="Arial, Helvetica, sans-serif" font-size="189" font-weight="700" letter-spacing="-17" transform="rotate(-7 221 520)">K</text>
+  <text x="708" y="478" fill="#171717" font-family="Arial, Helvetica, sans-serif" font-size="224" font-weight="700" letter-spacing="-18">KIVO</text>
+  <circle cx="1255" cy="618" r="172" fill="#ef583b"/>
+  <rect x="818" y="707" width="427" height="207" fill="#f3f1eb" transform="rotate(8 818 707)"/>
+  <text x="866" y="825" fill="#171717" font-family="Arial, Helvetica, sans-serif" font-size="52" font-weight="700" letter-spacing="-3" transform="rotate(8 866 825)">OBJECTS</text>
+  <text x="84" y="1020" fill="#171717" font-family="Arial, Helvetica, sans-serif" font-size="22" font-weight="700" letter-spacing="5">KIVO / THINGS WORTH KEEPING</text>
+  <text x="1490" y="1020" fill="#171717" text-anchor="end" font-family="Arial, Helvetica, sans-serif" font-size="22" font-weight="700" letter-spacing="5">KO—03</text>
+</svg>

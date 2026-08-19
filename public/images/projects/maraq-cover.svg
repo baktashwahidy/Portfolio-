@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 1120" role="img" aria-labelledby="title desc">
+  <title id="title">Maraq Labs social identity</title><desc id="desc">Orange and black social campaign identity with typographic data points.</desc>
+  <rect width="1600" height="1120" fill="#ef583b"/>
+  <rect x="62" y="62" width="1476" height="996" fill="none" stroke="#171717" stroke-width="3"/>
+  <text x="102" y="315" fill="#171717" font-family="Arial, Helvetica, sans-serif" font-size="166" font-weight="700" letter-spacing="-12">MARAQ</text>
+  <text x="107" y="466" fill="#171717" font-family="Arial, Helvetica, sans-serif" font-size="166" font-weight="700" letter-spacing="-12">LABS</text>
+  <circle cx="1125" cy="453" r="270" fill="#171717"/>
+  <text x="1125" y="500" fill="#ccff38" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="142" font-weight="700" letter-spacing="-10">37°</text>
+  <text x="1125" y="560" fill="#f3f1eb" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="24" font-weight="700" letter-spacing="4">FOOD / FUTURES</text>
+  <path d="M104 777h1396M104 855h1006" stroke="#171717" stroke-width="3"/>
+  <text x="106" y="973" fill="#171717" font-family="Arial, Helvetica, sans-serif" font-size="22" font-weight="700" letter-spacing="5">MAKING RESEARCH TASTE HUMAN</text>
+  <text x="1490" y="973" fill="#171717" text-anchor="end" font-family="Arial, Helvetica, sans-serif" font-size="22" font-weight="700" letter-spacing="5">ML—04</text>
+</svg>

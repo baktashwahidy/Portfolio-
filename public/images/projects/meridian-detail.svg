@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 1500" role="img" aria-labelledby="title desc">
+  <title id="title">Meridian House stationery</title><desc id="desc">Black menu card and orange hospitality mark on a warm background.</desc>
+  <rect width="1200" height="1500" fill="#1a1a18"/>
+  <rect x="105" y="130" width="607" height="970" fill="#d9d1be" transform="rotate(-8 105 130)"/>
+  <text x="210" y="333" fill="#161616" font-family="Arial, Helvetica, sans-serif" font-size="67" font-weight="700" letter-spacing="-4" transform="rotate(-8 210 333)">MERIDIAN</text>
+  <line x1="186" y1="388" x2="620" y2="327" stroke="#161616" stroke-width="2"/>
+  <text x="206" y="484" fill="#161616" font-family="Arial, Helvetica, sans-serif" font-size="22" font-weight="700" letter-spacing="3" transform="rotate(-8 206 484)">THE HOUSE MENU</text>
+  <text x="190" y="639" fill="#161616" font-family="Arial, Helvetica, sans-serif" font-size="33" transform="rotate(-8 190 639)">AM / PM</text>
+  <text x="191" y="733" fill="#161616" font-family="Arial, Helvetica, sans-serif" font-size="33" transform="rotate(-8 191 733)">SHARED TABLES</text>
+  <circle cx="852" cy="826" r="248" fill="#ef583b"/>
+  <text x="848" y="870" fill="#d9d1be" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="200" font-weight="700" letter-spacing="-17">M</text>
+  <text x="85" y="1420" fill="#d9d1be" font-family="Arial, Helvetica, sans-serif" font-size="18" font-weight="700" letter-spacing="4">A PLACE FOR EVERYDAY RITUALS</text>
+</svg>
