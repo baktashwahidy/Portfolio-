@@ -12,8 +12,8 @@ export function CursorFollower() {
 
     if (!cursor || !media.matches) return;
 
-    const xTo = gsap.quickTo(cursor, "x", { duration: 0.35, ease: "power3.out" });
-    const yTo = gsap.quickTo(cursor, "y", { duration: 0.35, ease: "power3.out" });
+    const xTo = gsap.quickTo(cursor, "x", { duration: 0.08, ease: "power3.out" });
+    const yTo = gsap.quickTo(cursor, "y", { duration: 0.08, ease: "power3.out" });
     const show = () => cursor.classList.add("is-visible");
     const move = (event: MouseEvent) => {
       show();
