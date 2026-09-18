@@ -39,9 +39,9 @@ export function Hero() {
         parallaxItems.forEach((item) => {
           const depth = Number(item.dataset.parallax ?? 1);
           gsap.to(item, {
-            x: x * depth * 20,
-            y: y * depth * 20,
-            duration: 1.1,
+            x: x * depth * 30,
+            y: y * depth * 30,
+            duration: 0.3,
             ease: "power3.out",
             overwrite: "auto",
           });
