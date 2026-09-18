@@ -41,7 +41,7 @@ export function Hero() {
           gsap.to(item, {
             x: x * depth * 30,
             y: y * depth * 30,
-            duration: 0.3,
+            duration: 0.6,
             ease: "power3.out",
             overwrite: "auto",
           });
