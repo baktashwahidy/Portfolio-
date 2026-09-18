@@ -15,6 +15,7 @@ export const siteConfig = {
   ],
   // Replace these destination URLs with Baktash's live profiles before launch.
   socialLinks: [
+    { label: "Upwork", href: "YOUR_UPWORK_PROFILE_URL" },
     { label: "Behance", href: "https://www.behance.net/baktashwahidy" },
     { label: "Instagram", href: "https://www.instagram.com/baktashwahidy/" },
     { label: "LinkedIn", href: "https://www.linkedin.com/in/baktashwahidy/" },
