@@ -3,7 +3,7 @@ export const siteConfig = {
   title: "Brand Identity Designer | Social Media Designer",
   description:
     "Baktash builds distinctive brand identities and visual systems for Arabic and English brands.",
-  email: "hello@baktash.design",
+  email: "baktashwahidy@outlook.com",
   location: "Dubai · Working worldwide",
   nav: [
     { label: "Work", href: "/#work", ecosystem: false },
@@ -15,9 +15,9 @@ export const siteConfig = {
   ],
   // Replace these destination URLs with Baktash's live profiles before launch.
   socialLinks: [
-    { label: "Behance", href: "https://www.behance.net/" },
-    { label: "Instagram", href: "https://www.instagram.com/" },
-    { label: "LinkedIn", href: "https://www.linkedin.com/" },
+    { label: "Behance", href: "https://www.behance.net/baktashwahidy" },
+    { label: "Instagram", href: "https://www.instagram.com/baktashwahidy/" },
+    { label: "LinkedIn", href: "https://www.linkedin.com/in/baktashwahidy/" },
   ],
 } as const;
 
