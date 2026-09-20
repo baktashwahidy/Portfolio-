@@ -60,6 +60,7 @@ export function Hero() {
   return (
     <section ref={heroRef} id="top" className="relative isolate flex min-h-[760px] overflow-hidden pb-8 pt-28 sm:min-h-[840px] sm:pb-10 sm:pt-36 lg:min-h-screen lg:pt-40">
       <HeroPattern containerRef={heroRef} />
+      <div aria-hidden className="absolute inset-y-0 left-[calc(50%-1px)] z-[1] hidden w-px bg-ink/10 lg:block" />
       <div aria-hidden data-parallax="0.55" className="absolute -right-10 top-[20%] z-[1] h-24 w-24 rounded-full border border-ink/50 sm:right-[16%] sm:h-36 sm:w-36" />
       <div aria-hidden data-parallax="1.35" className="absolute right-[8%] top-[40%] z-[1] hidden h-4 w-4 bg-ember sm:block" />
       <div aria-hidden data-parallax="0.85" className="absolute bottom-[16%] left-[7%] z-[1] hidden h-16 w-16 rotate-45 border border-cobalt sm:block" />
