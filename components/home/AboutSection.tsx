@@ -16,7 +16,7 @@ export function AboutSection() {
           <Reveal className="lg:col-span-6">
   <div className="relative aspect-[6/5] overflow-hidden">
     <Image
-      src="/images/projects/baktash.jpg"
+      src="/images/projects/Baktash.jpg"
       alt="Baktash, Brand Identity Designer"
       fill
       className="object-cover"
