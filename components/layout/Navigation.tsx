@@ -36,12 +36,43 @@ export function Navigation() {
         </Link>
 
         <nav aria-label="Primary navigation" className="hidden items-center gap-5 lg:flex xl:gap-7">
-          {siteConfig.nav.map((item) => (
-            <Link key={item.label} href={item.href} className={`group inline-flex items-center gap-1 text-[10px] font-bold uppercase tracking-label transition-colors hover:text-cobalt ${item.ecosystem ? "border-l border-ink/20 pl-5 xl:pl-7" : ""}`}>
-              {item.label}
-              {item.ecosystem && <ArrowUpRight aria-hidden size={11} strokeWidth={1.8} className="transition-transform duration-300 group-hover:-translate-y-0.5 group-hover:translate-x-0.5" />}
-            </Link>
-          ))}
+          {siteConfig.nav.map((item) =>
+  item.label === "Hire me" ? (
+    <a
+      key={item.label}
+      href={item.href}
+      target="_blank"
+      rel="noopener noreferrer"
+      className="group inline-flex items-center gap-1 border-l border-ink/20 pl-5 text-[10px] font-bold uppercase tracking-label transition-colors hover:text-cobalt xl:pl-7"
+    >
+      {item.label}
+      <ArrowUpRight
+        aria-hidden
+        size={11}
+        strokeWidth={1.8}
+        className="text-[#14A800] transition-transform duration-300 group-hover:-translate-y-0.5 group-hover:translate-x-0.5"
+      />
+    </a>
+  ) : (
+    <Link
+      key={item.label}
+      href={item.href}
+      className={`group inline-flex items-center gap-1 text-[10px] font-bold uppercase tracking-label transition-colors hover:text-cobalt ${
+        item.ecosystem ? "border-l border-ink/20 pl-5 xl:pl-7" : ""
+      }`}
+    >
+      {item.label}
+      {item.ecosystem && (
+        <ArrowUpRight
+          aria-hidden
+          size={11}
+          strokeWidth={1.8}
+          className="transition-transform duration-300 group-hover:-translate-y-0.5 group-hover:translate-x-0.5"
+        />
+      )}
+    </Link>
+  )
+)}
         </nav>
 
         <button type="button" className="relative z-[60] -mr-2 grid h-10 w-10 place-items-center lg:hidden" aria-label={isOpen ? "Close menu" : "Open menu"} aria-expanded={isOpen} onClick={() => setIsOpen((open) => !open)}>

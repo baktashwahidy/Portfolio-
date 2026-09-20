@@ -5,6 +5,7 @@ import Link from "next/link";
 import { gsap } from "gsap";
 import { useEffect, useRef } from "react";
 
+import { HeroPattern } from "@/components/home/HeroPattern";
 import { MagneticLink } from "@/components/ui/MagneticLink";
 
 export function Hero() {
@@ -33,6 +34,7 @@ export function Hero() {
 
       const parallaxItems = gsap.utils.toArray<HTMLElement>("[data-parallax]");
       const onMove = (event: MouseEvent) => {
+        if (!window.matchMedia("(pointer: fine)").matches) return;
         const bounds = hero.getBoundingClientRect();
         const x = (event.clientX - bounds.left) / bounds.width - 0.5;
         const y = (event.clientY - bounds.top) / bounds.height - 0.5;
@@ -56,14 +58,15 @@ export function Hero() {
   }, []);
 
   return (
-    <section ref={heroRef} id="top" className="relative flex min-h-[760px] overflow-hidden pb-8 pt-28 sm:min-h-[840px] sm:pb-10 sm:pt-36 lg:min-h-screen lg:pt-40">
-      <div aria-hidden className="absolute inset-y-0 left-[calc(50%-1px)] hidden w-px bg-ink/10 lg:block" />
-      <div aria-hidden data-parallax="0.55" className="absolute -right-10 top-[20%] h-24 w-24 rounded-full border border-ink/50 sm:right-[16%] sm:h-36 sm:w-36" />
-      <div aria-hidden data-parallax="1.35" className="absolute right-[8%] top-[40%] hidden h-4 w-4 bg-ember sm:block" />
-      <div aria-hidden data-parallax="0.85" className="absolute bottom-[16%] left-[7%] hidden h-16 w-16 rotate-45 border border-cobalt sm:block" />
-      <div aria-hidden data-parallax="1.4" className="absolute bottom-[28%] right-[20%] hidden text-[13px] font-bold tracking-[0.2em] text-cobalt lg:block">+</div>
+    <section ref={heroRef} id="top" className="relative isolate flex min-h-[760px] overflow-hidden pb-8 pt-28 sm:min-h-[840px] sm:pb-10 sm:pt-36 lg:min-h-screen lg:pt-40">
+      <HeroPattern containerRef={heroRef} />
+      <div aria-hidden className="absolute inset-y-0 left-[calc(50%-1px)] z-[1] hidden w-px bg-ink/10 lg:block" />
+      <div aria-hidden data-parallax="0.55" className="absolute -right-10 top-[20%] z-[1] h-24 w-24 rounded-full border border-ink/50 sm:right-[16%] sm:h-36 sm:w-36" />
+      <div aria-hidden data-parallax="1.35" className="absolute right-[8%] top-[40%] z-[1] hidden h-4 w-4 bg-ember sm:block" />
+      <div aria-hidden data-parallax="0.85" className="absolute bottom-[16%] left-[7%] z-[1] hidden h-16 w-16 rotate-45 border border-cobalt sm:block" />
+      <div aria-hidden data-parallax="1.4" className="absolute bottom-[28%] right-[20%] z-[1] hidden text-[13px] font-bold tracking-[0.2em] text-cobalt lg:block">+</div>
 
-      <div className="page-shell relative flex w-full flex-col">
+      <div className="page-shell relative z-10 flex w-full flex-col">
         <div className="grid grid-cols-1 gap-8 lg:grid-cols-2 lg:gap-16">
           <p data-hero-fade className="eyebrow max-w-48 leading-[1.55]">
             Independent designer<br />Dubai · Working worldwide
@@ -84,7 +87,7 @@ export function Hero() {
               <span className="eyebrow text-ink">01 / Identity</span>
               <Plus aria-hidden size={15} />
             </div>
-            <p className="mt-14 text-[clamp(1.1rem,2vw,1.85rem)] font-bold leading-[0.95] tracking-display">Distinct by design.</p>
+            <p className="mt-8 text-[clamp(1rem,2vw,1.85rem)] font-bold leading-[0.95] tracking-display sm:mt-14"></p>
           </div>
         </div>
 

@@ -44,7 +44,7 @@ export default async function ProjectPage({ params }: ProjectPageProps) {
           <p className="body-lg self-end text-quiet lg:col-span-4">{project.shortDescription}</p>
         </div>
 
-        <div className="project-image-wrap mt-14 aspect-[4/5] sm:mt-20 sm:aspect-[16/10]">
+        <div className="project-image-wrap mt-14 aspect-[16/10] sm:mt-20 sm:aspect-[16/10]">
           <Image src={project.coverImage.src} alt={project.coverImage.alt} fill priority sizes="(min-width: 1536px) 1440px, 100vw" className="object-cover" />
         </div>
 
@@ -81,7 +81,7 @@ export default async function ProjectPage({ params }: ProjectPageProps) {
 
         <div className="mt-20 grid gap-5 sm:mt-32 sm:grid-cols-2">
           {project.images.map((image) => (
-            <div key={image.src} className="project-image-wrap aspect-[4/5] first:sm:aspect-[4/5] last:sm:mt-[16%] last:sm:aspect-[4/5]">
+            <div key={image.src} className="project-image-wrap aspect-[16/10] last:sm:mt-[16%]">
               <Image src={image.src} alt={image.alt} fill sizes="(min-width: 640px) 50vw, 100vw" className="object-cover" />
             </div>
           ))}

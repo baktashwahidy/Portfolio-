@@ -25,7 +25,7 @@ export function WorkSection() {
             return (
               <Reveal key={project.slug}>
                 <article className={`grid gap-5 lg:grid-cols-12 lg:items-end lg:gap-8 ${isOffset ? "" : ""}`}>
-                  <Link href={`/work/${project.slug}`} className={`project-image-wrap group block aspect-[4/5] lg:aspect-[16/10] ${isOffset ? "lg:order-2 lg:col-span-7" : "lg:col-span-8"}`}>
+                  <Link href={`/work/${project.slug}`} className={`project-image-wrap group block aspect-[16/10] ${isOffset ? "lg:order-2 lg:col-span-7" : "lg:col-span-8"}`}>
                     <Image src={project.coverImage.src} alt={project.coverImage.alt} fill sizes="(min-width: 1024px) 65vw, 100vw" className="object-cover" />
                     <span className="absolute right-4 top-4 grid h-9 w-9 place-items-center bg-canvas text-ink opacity-100 transition-all duration-500 lg:translate-y-2 lg:opacity-0 lg:group-hover:translate-y-0 lg:group-hover:opacity-100">
                       <ArrowUpRight size={16} strokeWidth={1.6} />

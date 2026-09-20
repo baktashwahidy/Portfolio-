@@ -11,11 +11,16 @@ export const siteConfig = {
     { label: "About", href: "/#about", ecosystem: false },
     { label: "IMKON", href: "/imkon", ecosystem: true },
     { label: "Shop", href: "/shop", ecosystem: true },
+    { label: "Hire me", href: "https://www.upwork.com/freelancers/baktash", ecosystem: true },
     { label: "Contact", href: "/#contact", ecosystem: false },
   ],
   // Replace these destination URLs with Baktash's live profiles before launch.
   socialLinks: [
-    { label: "Upwork", href: "YOUR_UPWORK_PROFILE_URL" },
+    { label: "Upwork", href: "https://upwork.com/freelancers/baktash" },
+    { label: "Fiverr", href: "https://www.fiverr.com/baktashwahidy" },
+    { label: "Freelancer", href: "https://www.freelancer.com/u/baktashwahidy" },
+    { label: "Contra", href: "https://contra.com/baktashwahidy" },
+    { label: "Preply", href: "https://preply.com/en/tutor/7711340" },
     { label: "Behance", href: "https://www.behance.net/baktashwahidy" },
     { label: "Instagram", href: "https://www.instagram.com/baktashwahidy/" },
     { label: "LinkedIn", href: "https://www.linkedin.com/in/baktashwahidy/" },

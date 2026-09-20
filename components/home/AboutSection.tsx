@@ -1,5 +1,5 @@
 import { ArrowUpRight } from "lucide-react";
-
+import Image from "next/image";
 import { Reveal } from "@/components/ui/Reveal";
 import { SectionHeading } from "@/components/ui/SectionHeading";
 import { tools } from "@/data/site";
@@ -13,16 +13,17 @@ export function AboutSection() {
         </SectionHeading>
 
         <div className="mt-16 grid gap-10 lg:mt-28 lg:grid-cols-12 lg:gap-8">
-          <Reveal className="lg:col-span-7">
-            <div className="relative aspect-[4/5] overflow-hidden bg-cobalt p-6 text-canvas sm:p-9">
-              <p className="eyebrow text-canvas/70">Arabic × English</p>
-              <p className="absolute bottom-6 left-5 text-[clamp(6rem,19vw,15rem)] font-bold leading-[0.68] tracking-display sm:bottom-9 sm:left-8">A<span className="text-signal">/</span></p>
-              <p lang="ar" dir="rtl" className="absolute right-5 top-[31%] text-[clamp(5rem,15vw,12rem)] font-bold leading-none sm:right-9">ب</p>
-              <div aria-hidden className="absolute bottom-[27%] right-[14%] h-[23%] w-[1px] bg-canvas/60" />
-              <div aria-hidden className="absolute right-[14%] top-[27%] h-3 w-3 bg-ember" />
-              <p className="absolute bottom-7 right-6 max-w-[9rem] text-right text-[11px] font-bold uppercase leading-relaxed tracking-label sm:bottom-10 sm:right-9">One coherent system, across every language.</p>
-            </div>
-          </Reveal>
+          <Reveal className="lg:col-span-6">
+  <div className="relative aspect-[6/5] overflow-hidden">
+    <Image
+      src="/images/projects/baktash.jpg"
+      alt="Baktash, Brand Identity Designer"
+      fill
+      className="object-cover"
+      sizes="(min-width: 1024px) 50vw, 100vw"
+    />
+  </div>
+</Reveal>
 
           <div className="flex flex-col lg:col-span-5 lg:pl-[10%]">
             <Reveal>
