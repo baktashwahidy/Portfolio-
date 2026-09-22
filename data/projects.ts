@@ -50,12 +50,12 @@ export const projects: Project[] = [
     shortDescription:
       "An assured visual identity for a hospitality concept where local ritual meets contemporary living.",
     coverImage: {
-      src: "/images/projects/meridian-cover.svg",
+      src: "/images/projects/meridian-cover.jpg",
       alt: "Meridian House brand identity composition",
     },
     images: [
-      { src: "/images/projects/meridian-cover.svg", alt: "Meridian House wordmark study" },
-      { src: "/images/projects/meridian-detail.svg", alt: "Meridian House menu and stationery" },
+      { src: "/images/projects/meridian-cover.jpg", alt: "Meridian House wordmark study" },
+      { src: "/images/projects/meridian-detail.jpg", alt: "Meridian House menu and stationery" },
     ],
     services: ["Brand Strategy", "Visual Identity", "Brand Guidelines", "Print Design"],
     tools: ["Adobe Illustrator", "Adobe InDesign", "Figma"],
@@ -80,12 +80,12 @@ export const projects: Project[] = [
     shortDescription:
       "A bilingual identity that brings clarity, rhythm and quiet confidence to a modern beauty studio.",
     coverImage: {
-      src: "/images/projects/noura-cover.svg",
+      src: "/images/projects/noura-cover.jpg",
       alt: "Noura Studio bilingual identity artwork",
     },
     images: [
-      { src: "/images/projects/noura-cover.svg", alt: "Noura Studio typography" },
-      { src: "/images/projects/noura-detail.svg", alt: "Noura Studio social layout" },
+      { src: "/images/projects/noura-cover.jpg", alt: "Noura Studio typography" },
+      { src: "/images/projects/noura-detail.jpg", alt: "Noura Studio social layout" },
     ],
     services: ["Arabic Branding", "English Branding", "Logo System", "Social Media Branding"],
     tools: ["Adobe Illustrator", "Adobe Photoshop", "Canva"],
@@ -110,12 +110,12 @@ export const projects: Project[] = [
     shortDescription:
       "A tactile packaging and visual system for everyday objects made to be kept, shared and collected.",
     coverImage: {
-      src: "/images/projects/kivo-cover.svg",
+      src: "/images/projects/kivo-cover.jpg",
       alt: "Kivo Objects packaging design artwork",
     },
     images: [
-      { src: "/images/projects/kivo-cover.svg", alt: "Kivo Objects package design" },
-      { src: "/images/projects/kivo-detail.svg", alt: "Kivo Objects colour system" },
+      { src: "/images/projects/kivo-cover.jpg", alt: "Kivo Objects package design" },
+      { src: "/images/projects/kivo-detail.jpg", alt: "Kivo Objects colour system" },
     ],
     services: ["Packaging Design", "Visual Identity", "Art Direction", "Print Design"],
     tools: ["Adobe Illustrator", "Adobe InDesign", "Adobe Photoshop"],
@@ -140,12 +140,12 @@ export const projects: Project[] = [
     shortDescription:
       "A sharp social-first visual language for a food innovation company communicating complex ideas simply.",
     coverImage: {
-      src: "/images/projects/maraq-cover.svg",
+      src: "/images/projects/maraq-cover.jpg",
       alt: "Maraq Labs social media identity composition",
     },
     images: [
-      { src: "/images/projects/maraq-cover.svg", alt: "Maraq Labs campaign direction" },
-      { src: "/images/projects/maraq-detail.svg", alt: "Maraq Labs content templates" },
+      { src: "/images/projects/maraq-cover.jpg", alt: "Maraq Labs campaign direction" },
+      { src: "/images/projects/maraq-detail.jpg", alt: "Maraq Labs content templates" },
     ],
     services: ["Social Media Branding", "Content Templates", "Marketing Design", "Pitch Deck Design"],
     tools: ["Figma", "Adobe Photoshop", "Canva"],
