@@ -1,12 +1,5 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 1120" role="img" aria-labelledby="title desc">
-  <title id="title">Meridian House identity</title><desc id="desc">Warm ivory brand composition with an expressive black M monogram.</desc>
-  <rect width="1600" height="1120" fill="#d9d1be"/>
-  <rect x="62" y="62" width="1476" height="996" fill="none" stroke="#161616" stroke-width="3"/>
-  <circle cx="1210" cy="368" r="235" fill="#ef583b"/>
-  <path d="M238 840V292h97l170 264 169-264h98v548H666V500L526 718h-43L344 500v340H238Z" fill="#161616"/>
-  <text x="927" y="791" fill="#161616" font-family="Arial, Helvetica, sans-serif" font-size="108" font-weight="700" letter-spacing="-6">HOUSE</text>
-  <text x="82" y="102" fill="#161616" font-family="Arial, Helvetica, sans-serif" font-size="22" font-weight="700" letter-spacing="5">MERIDIAN / 2025</text>
-  <text x="1450" y="102" fill="#161616" font-family="Arial, Helvetica, sans-serif" font-size="22" font-weight="700" text-anchor="end" letter-spacing="4">MH—01</text>
-  <path d="M1108 285c55-51 163-62 227 14 65 77 29 185-36 230-71 50-178 22-226-51-45-70-27-137 35-193Z" fill="none" stroke="#d9d1be" stroke-width="8"/>
-  <line x1="928" y1="836" x2="1450" y2="836" stroke="#161616" stroke-width="3"/>
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Layer_1" xmlns="http://www.w3.org/2000/svg" version="1.1" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 1600 1120">
+  <!-- Generator: Adobe Illustrator 30.4.0, SVG Export Plug-In . SVG Version: 2.1.4 Build 226)  -->
+  <image width="1600" height="1200" transform="translate(0 -40)" xlink:href="D:\Freelance &amp; Clients\Portfolio\New folder (2)\New folder (48)\ECLAT\14.jpg"/>
 </svg>
