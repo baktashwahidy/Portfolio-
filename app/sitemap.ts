@@ -1,32 +1,37 @@
 import type { MetadataRoute } from "next";
 
+import { getPublishedProjects } from "@/lib/projects";
+
+const baseUrl = "https://www.baktashwahidy.com";
+
 export default function sitemap(): MetadataRoute.Sitemap {
-  const baseUrl = "https://www.baktashwahidy.com";
+  const projectUrls = getPublishedProjects().map((project) => ({
+    url: `${baseUrl}/work/${project.slug}`,
+    changeFrequency: "monthly" as const,
+    priority: 0.8,
+  }));
 
   return [
     {
       url: baseUrl,
-      lastModified: new Date(),
       changeFrequency: "weekly",
       priority: 1,
     },
     {
       url: `${baseUrl}/work`,
-      lastModified: new Date(),
-      changeFrequency: "weekly",
+      changeFrequency: "monthly",
       priority: 0.9,
     },
+    ...projectUrls,
     {
       url: `${baseUrl}/imkon`,
-      lastModified: new Date(),
       changeFrequency: "monthly",
-      priority: 0.7,
+      priority: 0.5,
     },
     {
       url: `${baseUrl}/shop`,
-      lastModified: new Date(),
       changeFrequency: "monthly",
-      priority: 0.7,
+      priority: 0.3,
     },
   ];
 }
