@@ -27,7 +27,7 @@ export function AboutSection() {
 
           <div className="flex flex-col lg:col-span-5 lg:pl-[10%]">
             <Reveal>
-              <p className="body-lg max-w-md">Baktash is a Brand Identity Designer and Social Media Designer helping startups, growing businesses and personal brands become distinct, consistent and recognisable.</p>
+              <p className="body-lg max-w-md">Baktash Wahidy is a Brand Identity Designer and Social Media Designer helping startups, growing businesses and personal brands become distinct, consistent and recognisable.</p>
               <p className="mt-6 max-w-md text-[15px] leading-relaxed text-quiet">The work combines brand identity, logo systems, visual identity, brand guidelines, social media branding and marketing design into visual worlds that hold together wherever people meet a brand.</p>
             </Reveal>
             <Reveal delay={0.1} className="mt-14 border-t border-ink/20 pt-4 sm:mt-20">
