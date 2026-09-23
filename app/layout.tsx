@@ -63,8 +63,14 @@ export const metadata: Metadata = {
     images: ["/images/projects/Baktash.jpg"],
   },
   icons: {
-    icon: "/icon.svg",
+    icon: [
+      { url: "/icons/favicon-48.png", sizes: "48x48", type: "image/png" },
+      { url: "/icons/favicon-96.png", sizes: "96x96", type: "image/png" },
+    ],
+    apple: "/icons/apple-touch-icon.png",
+    shortcut: "/icons/favicon.ico",
   },
+  manifest: "/site.webmanifest",
 };
 
 const personSchema = {
