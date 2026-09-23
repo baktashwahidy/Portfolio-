@@ -5,6 +5,7 @@ import Link from "next/link";
 import { notFound } from "next/navigation";
 
 import { Reveal } from "@/components/ui/Reveal";
+import { JsonLd } from "@/components/seo/JsonLd";
 import { getNextProject, getProjectBySlug, getPublishedProjects } from "@/lib/projects";
 
 type ProjectPageProps = {
@@ -15,14 +16,31 @@ export function generateStaticParams() {
   return getPublishedProjects().map((project) => ({ slug: project.slug }));
 }
 
+const siteUrl = "https://www.baktashwahidy.com";
+
 export async function generateMetadata({ params }: ProjectPageProps): Promise<Metadata> {
   const { slug } = await params;
   const project = getProjectBySlug(slug);
   if (!project) return { title: "Project not found" };
 
   return {
-    title: project.title,
-    description: project.shortDescription,
+    title: `${project.title} | ${project.category} Case Study`,
+    description: `${project.shortDescription} Case study by Baktash Wahidy, covering ${project.services.join(", ")}.`,
+    alternates: {
+      canonical: `${siteUrl}/work/${project.slug}`,
+    },
+    openGraph: {
+      title: `${project.title} | Baktash Wahidy`,
+      description: project.shortDescription,
+      url: `${siteUrl}/work/${project.slug}`,
+      type: "article",
+      images: [
+        {
+          url: project.coverImage.src,
+          alt: project.coverImage.alt,
+        },
+      ],
+    },
   };
 }
 
@@ -32,8 +50,36 @@ export default async function ProjectPage({ params }: ProjectPageProps) {
   if (!project) notFound();
   const nextProject = getNextProject(project.slug);
 
+  const schema = {
+    "@context": "https://schema.org",
+    "@type": "CreativeWork",
+    "@id": `${siteUrl}/work/${project.slug}#work`,
+    url: `${siteUrl}/work/${project.slug}`,
+    name: project.title,
+    description: project.shortDescription,
+    image: project.images.map((image) => `${siteUrl}${image.src}`),
+    dateCreated: `${project.year}-01-01`,
+    inLanguage: "en",
+    genre: project.category,
+    creator: { "@id": `${siteUrl}/#person` },
+    author: { "@id": `${siteUrl}/#person` },
+    isPartOf: { "@id": `${siteUrl}/#website` },
+    keywords: [...project.services, ...project.tools, project.category],
+  };
+
+  const breadcrumbSchema = {
+    "@context": "https://schema.org",
+    "@type": "BreadcrumbList",
+    itemListElement: [
+      { "@type": "ListItem", position: 1, name: "Home", item: siteUrl },
+      { "@type": "ListItem", position: 2, name: "Selected Work", item: `${siteUrl}/work` },
+      { "@type": "ListItem", position: 3, name: project.title, item: `${siteUrl}/work/${project.slug}` },
+    ],
+  };
+
   return (
     <article className="pb-[clamp(5.5rem,11vw,11.5rem)] pt-28 sm:pt-36 lg:pt-40">
+      <JsonLd data={[schema, breadcrumbSchema]} />
       <div className="page-shell">
         <Link href="/work" className="text-link"><ArrowLeft aria-hidden size={14} strokeWidth={1.7} />All work</Link>
         <div className="mt-12 grid gap-7 border-t border-ink/20 pt-4 lg:mt-16 lg:grid-cols-12 lg:gap-8">
