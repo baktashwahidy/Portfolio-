@@ -1,8 +1,9 @@
 export const siteConfig = {
-  name: "Baktash",
-  title: "Brand Identity Designer | Social Media Designer",
+  name: "Baktash Wahidy",
+  shortName: "Baktash",
+  title: "Brand Identity Designer & Social Media Designer",
   description:
-    "Baktash builds distinctive brand identities and visual systems for Arabic and English brands.",
+    "Baktash Wahidy is a Brand Identity Designer and Social Media Designer creating distinctive visual identities, branding systems, and social media design for Arabic and English brands.",
   email: "baktashwahidy@outlook.com",
   location: "Dubai · Working worldwide",
   nav: [
