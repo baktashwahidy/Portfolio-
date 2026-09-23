@@ -68,7 +68,7 @@ export function Hero() {
       <div className="page-shell relative z-10 flex w-full flex-col">
         <div className="grid grid-cols-1 gap-8 lg:grid-cols-2 lg:gap-16">
           <p data-hero-fade className="eyebrow max-w-48 leading-[1.55]">
-            Independent designer<br />Dubai · Working worldwide
+            Baktash Wahidy<br />Independent designer<br />Dubai · Working worldwide
           </p>
           <p data-hero-fade className="eyebrow self-start leading-[1.55] lg:justify-self-end lg:text-right">
             Brand identity · Social design<br />Arabic × English brands
