@@ -1,0 +1,21 @@
+{
+  "name": "Baktash Wahidy",
+  "short_name": "Baktash",
+  "description": "Baktash Wahidy, Brand Identity Designer and Social Media Designer.",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#f5f3ee",
+  "theme_color": "#f5f3ee",
+  "icons": [
+    {
+      "src": "/icons/favicon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/icons/favicon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    }
+  ]
+}
