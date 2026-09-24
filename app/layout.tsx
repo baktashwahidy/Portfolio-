@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import type { ReactNode } from "react";
+// @ts-expect-error Next.js processes this global stylesheet at build time.
 import "./globals.css";
 
 import { CursorFollower } from "@/components/ui/CursorFollower";
