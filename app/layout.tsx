@@ -14,21 +14,29 @@ const websiteId = `${siteUrl}/#website`;
 
 const socialProfiles = siteConfig.socialLinks.map((social) => social.href);
 
+const seoDescription =
+  "Baktash Wahidy is a Brand Identity and Social Media Designer specializing in Arabic and English branding, logo design, visual identity, and social media design.";
+
 export const metadata: Metadata = {
   metadataBase: new URL(siteUrl),
+
   title: {
     default: "Baktash Wahidy | Brand Identity Designer & Social Media Designer",
     template: "%s | Baktash Wahidy",
   },
-  description: siteConfig.description,
+
+  description: seoDescription,
+
   applicationName: "Baktash Wahidy",
   authors: [{ name: "Baktash Wahidy", url: siteUrl }],
   creator: "Baktash Wahidy",
   publisher: "Baktash Wahidy",
   category: "Design",
+
   alternates: {
     canonical: siteUrl,
   },
+
   robots: {
     index: true,
     follow: true,
@@ -40,13 +48,15 @@ export const metadata: Metadata = {
       "max-video-preview": -1,
     },
   },
+
   openGraph: {
     type: "website",
     url: siteUrl,
     siteName: "Baktash Wahidy",
     title: "Baktash Wahidy | Brand Identity Designer & Social Media Designer",
-    description: siteConfig.description,
+    description: seoDescription,
     locale: "en_US",
+
     images: [
       {
         url: "/images/projects/Baktash.jpg",
@@ -56,27 +66,40 @@ export const metadata: Metadata = {
       },
     ],
   },
+
   twitter: {
     card: "summary_large_image",
     title: "Baktash Wahidy | Brand Identity Designer & Social Media Designer",
-    description: siteConfig.description,
+    description: seoDescription,
     images: ["/images/projects/Baktash.jpg"],
   },
+
   icons: {
     icon: [
-      { url: "/icons/favicon-48.png", sizes: "48x48", type: "image/png" },
-      { url: "/icons/favicon-96.png", sizes: "96x96", type: "image/png" },
+      {
+        url: "/icons/favicon-48.png",
+        sizes: "48x48",
+        type: "image/png",
+      },
+      {
+        url: "/icons/favicon-96.png",
+        sizes: "96x96",
+        type: "image/png",
+      },
     ],
     apple: "/icons/apple-touch-icon.png",
     shortcut: "/icons/favicon.ico",
   },
+
   manifest: "/site.webmanifest",
 };
 
 const personSchema = {
   "@type": "Person",
   "@id": personId,
+
   name: "Baktash Wahidy",
+
   alternateName: [
     "Baktash",
     "Baktash Wahedy",
@@ -88,11 +111,17 @@ const personSchema = {
     "بکتاش واحدی",
     "بکتاش وهیدی",
   ],
+
   url: siteUrl,
+
   image: `${siteUrl}/images/projects/Baktash.jpg`,
+
   jobTitle: "Brand Identity Designer & Social Media Designer",
-  description: siteConfig.description,
+
+  description: seoDescription,
+
   email: `mailto:${siteConfig.email}`,
+
   knowsAbout: [
     "Brand identity design",
     "Visual identity design",
@@ -104,33 +133,55 @@ const personSchema = {
     "Pitch deck design",
     "Marketing design",
   ],
+
   sameAs: socialProfiles,
 };
 
 const websiteSchema = {
   "@type": "WebSite",
   "@id": websiteId,
+
   url: siteUrl,
+
   name: "Baktash Wahidy",
-  alternateName: ["Baktash", "Baktash Wahidy Portfolio"],
-  description: siteConfig.description,
+
+  alternateName: [
+    "Baktash",
+    "Baktash Wahidy Portfolio",
+  ],
+
+  description: seoDescription,
+
   inLanguage: "en",
-  publisher: { "@id": personId },
+
+  publisher: {
+    "@id": personId,
+  },
 };
 
 const rootSchema = {
   "@context": "https://schema.org",
-  "@graph": [personSchema, websiteSchema],
+
+  "@graph": [
+    personSchema,
+    websiteSchema,
+  ],
 };
 
-export default function RootLayout({ children }: Readonly<{ children: ReactNode }>) {
+export default function RootLayout({
+  children,
+}: Readonly<{ children: ReactNode }>) {
   return (
     <html lang="en" className="scroll-smooth">
       <body>
         <JsonLd data={rootSchema} />
+
         <CursorFollower />
+
         <Navigation />
+
         <main>{children}</main>
+
         <Footer />
       </body>
     </html>
