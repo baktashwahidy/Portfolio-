@@ -1,5 +1,5 @@
 export const ecosystemDestinations = {
-  imkzn: {
+  imkon: {
     index: "IMKON",
     name: "IMKON Academy",
 
