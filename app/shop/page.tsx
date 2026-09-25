@@ -1,16 +1,25 @@
 import type { Metadata } from "next";
 
-import { FutureDestination } from "@/components/ecosystem/FutureDestination";
+import { ShopDestination } from "@/components/ecosystem/ShopDestination";
 import { ecosystemDestinations } from "@/data/ecosystem";
 
 export const metadata: Metadata = {
-  title: "IMKON Shop | Baktash Wahidy",
-  description: "IMKON Shop is Baktash Wahidy's future collection of printed and personalized design goods.",
+  title: "IMKON Shop | Printed & Personalized Design Goods",
+  description:
+    "IMKON Shop offers printed and personalized design goods including metal prints, custom stickers, premium invitation cards, and future collections.",
   alternates: {
     canonical: "https://www.baktashwahidy.com/shop",
+  },
+  openGraph: {
+    title: "IMKON Shop | Printed & Personalized Design Goods",
+    description:
+      "Printed and personalized design goods from IMKON Shop.",
+    url: "https://www.baktashwahidy.com/shop",
+    siteName: "Baktash Wahidy",
+    type: "website",
   },
 };
 
 export default function ShopPage() {
-  return <FutureDestination {...ecosystemDestinations.shop} />;
+  return <ShopDestination {...ecosystemDestinations.shop} />;
 }
