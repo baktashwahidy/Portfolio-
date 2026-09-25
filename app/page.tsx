@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 
 import { AboutSection } from "@/components/home/AboutSection";
+import { ClientFeedbackSection } from "@/components/home/ClientFeedbackSection";
 import { ContactSection } from "@/components/home/ContactSection";
 import { Hero } from "@/components/home/Hero";
 import { ServicesSection } from "@/components/home/ServicesSection";
@@ -41,10 +42,17 @@ export default function Home() {
   return (
     <>
       <JsonLd data={homepageSchema} />
+
       <Hero />
-      <WorkSection />
-      <ServicesSection />
+
       <AboutSection />
+
+      <WorkSection />
+
+      <ServicesSection />
+
+      <ClientFeedbackSection />
+
       <ContactSection />
     </>
   );
