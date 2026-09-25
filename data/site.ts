@@ -10,7 +10,7 @@ export const siteConfig = {
     { label: "Work", href: "/#work", ecosystem: false },
     { label: "Services", href: "/#services", ecosystem: false },
     { label: "About", href: "/#about", ecosystem: false },
-    { label: "IMKON", href: "/imkon", ecosystem: true },
+    { label: "Academy", href: "/imkon", ecosystem: true },
     { label: "Shop", href: "/shop", ecosystem: true },
     { label: "Hire me", href: "https://www.upwork.com/freelancers/baktash", ecosystem: true },
     { label: "Contact", href: "/#contact", ecosystem: false },
@@ -51,25 +51,29 @@ export const serviceGroups = [
   {
     number: "01",
     title: "Brand foundations",
-    description: "The strategic and visual core that makes a business feel clear, credible and distinct.",
+    description:
+      "The strategic and visual core that makes a business feel clear, credible and distinct.",
     services: services.slice(0, 5),
   },
   {
     number: "02",
     title: "Social presence",
-    description: "A recognisable content system designed to move consistently across fast-changing platforms.",
+    description:
+      "A recognisable content system designed to move consistently across fast-changing platforms.",
     services: services.slice(5, 10),
   },
   {
     number: "03",
     title: "Bilingual systems",
-    description: "Arabic and English visual languages created as one coherent, considered brand experience.",
+    description:
+      "Arabic and English visual languages created as one coherent, considered brand experience.",
     services: services.slice(10, 11),
   },
   {
     number: "04",
     title: "Campaigns & touchpoints",
-    description: "The materials that carry a brand from first impression to daily interaction.",
+    description:
+      "The materials that carry a brand from first impression to daily interaction.",
     services: services.slice(11),
   },
 ] as const;
