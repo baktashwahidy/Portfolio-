@@ -2,6 +2,7 @@ import Image from "next/image";
 import { ArrowUpRight } from "lucide-react";
 
 import { AcademyPeople } from "@/components/ecosystem/AcademyPeople";
+import { AcademyRegistration } from "@/components/ecosystem/AcademyRegistration";
 import { Reveal } from "@/components/ui/Reveal";
 
 type AcademyItem = {
@@ -233,21 +234,7 @@ export function FutureDestination({
               Learn. Create. Build your career.
             </p>
 
-            <div className="mt-8 flex flex-wrap gap-5">
-              <a
-                href="https://forms.gle/b5AS38hrymwzqdr68"
-                target="_blank"
-                rel="noopener noreferrer"
-                className="text-link"
-              >
-                Register now
-                <ArrowUpRight
-                  aria-hidden
-                  size={15}
-                  strokeWidth={1.8}
-                />
-              </a>
-            </div>
+            <AcademyRegistration />
           </div>
         </div>
       </section>
