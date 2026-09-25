@@ -7,9 +7,9 @@ export const siteConfig = {
   email: "baktashwahidy@outlook.com",
   location: "Dubai · Working worldwide",
   nav: [
+    { label: "About", href: "/#about", ecosystem: false },
     { label: "Work", href: "/#work", ecosystem: false },
     { label: "Services", href: "/#services", ecosystem: false },
-    { label: "About", href: "/#about", ecosystem: false },
     { label: "Academy", href: "/imkon", ecosystem: true },
     { label: "Shop", href: "/shop", ecosystem: true },
     { label: "Hire me", href: "https://www.upwork.com/freelancers/baktash", ecosystem: true },
